@@ -1,7 +1,9 @@
-import React from 'react'
-import '../../App.css'
-
+import React from 'react';
+import '../../App.css';
+import Slide from '../Slide';
 
 export default function Products() {
-    return <h1 className="Products">PRODUCT</h1>;
+  return (
+      <Slide />
+  );
 }
